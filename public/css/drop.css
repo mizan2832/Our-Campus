@@ -1,0 +1,60 @@
+.na {background-color: #0B0B0B !important; border-color: transparent; border-radius: 0%;
+box-shadow: 0 0 6px 3px rgba(0,0,0,.35); }
+/** Default navbar **/
+.na-default .na-nav>li>a { padding-top: 25px; padding-bottom: 25px; min-height: 69px; color: #A4A4A4;}
+.na-default .na-nav > li > a:hover {color: #DDBE42;}
+.na-default .na-nav > .active > a,
+.na-default .na-nav > .active > a:hover,
+.na-default .na-nav > .active > a:focus {
+  background-color: transparent;
+  color: #DDBE42;
+}
+.na-default .na-nav > .open > a,
+.na-default .na-nav > .open > a:hover,
+.na-default .na-nav > .open > a:focus {
+  background-color: transparent;
+  color: #DDBE42;
+}
+.na-default .na-nav .open .drop-menu {
+  background-color: #060606 !important;
+  box-shadow: 0 4px 2px -2px rgba(0,0,0,0.4);
+}
+.na-default .na-nav .open .drop-menu > li > a{
+  color: #585858 !important;
+  padding: 12px 12px 12px 12px !important;
+}
+.na-default .na-nav .open .drop-menu > li > a:hover,
+.na-default .na-nav .open .drop-menu > li > a:focus {
+  color: #DDBE42 !important;
+  background-color: transparent !important;
+}
+.na-default .na-nav .open .drop-menu > .active > a,
+  .na-default .na-nav .open .drop-menu > .active > a:hover,
+  .na-default .na-nav .open .drop-menu > .active > a:focus {
+    color: #DDBE42 !important;
+    background-color: transparent !important;
+  }
+.na-default .na-toggle {
+  border-color: transparent;
+}
+.na-default .na-toggle:hover,
+.na-default .na-toggle:focus {
+  border-color: transparent;
+  background-color: transparent;
+}
+.na-default .na-collapse,
+.na-default .na-form {
+  border-color: transparent;
+}
+.na-form { padding-top: 10px !important;}
+.na-text { margin-top: 25px; }
+.na-default .na-text { color: #CBAF3B;}
+.na-default .na-brand {
+  font-size: 21px;
+  color: #CBAF3B;
+  margin-top: 10px;
+}
+.na-default .na-brand:hover,
+.na-default .na-brand:focus {
+  color: #DDBE42;
+}

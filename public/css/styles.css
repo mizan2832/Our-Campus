@@ -1,0 +1,92 @@
+.btn-h1-spacing{
+	margin-top: 18px;
+}
+.form-spacing-top{
+	margin-top: 10px;
+}
+.h1-spacing{
+	margin-top: 15px;
+}
+.comment{
+	margin-bottom: 45px;
+
+}
+.comments-title{
+	margin-bottom: 45px;
+}
+.comments-title>span{
+	margin-right: 15px;
+}
+.media-object{
+	
+	border-radius: 50%;
+	
+}
+.author-name{
+	float: left;
+}
+.author-comment{
+	clear: both;
+
+}
+.author-image{
+	margin-left: 20px;
+}
+
+/*image gallary */
+.gallery
+
+    {
+
+        display: inline-block;
+
+        margin-top: 20px;
+
+    }
+
+    .close-icon{
+
+    	border-radius: 50%;
+
+        position: absolute;
+
+        right: 5px;
+
+        top: -10px;
+
+        padding: 5px 8px;
+
+    }
+
+    .form-image-upload{
+
+        background: #e8e8e8 none repeat scroll 0 0;
+
+        padding: 15px;
+
+    }
+
+    /*image gallary end*/
+
+
+    .select-style {
+    border: 1px solid #ccc;
+    width: 300px;
+    border-radius: 3px;
+    overflow: hidden;
+    background: #fafafa url("img/icon-select.png") no-repeat 90% 50%;
+}
+
+.select-style select {
+    padding: 5px 8px;
+    width: 130%;
+    border: none;
+    box-shadow: none;
+    background: transparent;
+    background-image: none;
+    -webkit-appearance: none;
+}
+
+.select-style select:focus {
+    outline: none;
+}
